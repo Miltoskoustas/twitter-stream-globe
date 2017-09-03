@@ -1,9 +1,9 @@
 {
-	"TWITTER_CONSUMER_KEY": "your-twitter-app-consumer-key",
-	"TWITTER_CONSUMER_SECRET": "your-twitter-app-consumer-secret",
-	"TWITTER_ACCESS_TOKEN": "your-twitter-access-token",
-	"TWITTER_TOKEN_SECRET": "your-twitter-token-secret",
-	"PUBNUB_PUBLISH_KEY": "your-publish-key",
-	"PUBNUB_SUBSCRIBE_KEY": "your-pubnub-subscribe-key",
+	"TWITTER_CONSUMER_KEY": "jT0qZzXoRYB2yLoUa9JExbgXl",
+	"TWITTER_CONSUMER_SECRET": "lBzjDEJEj1sWHsjwt7zvsFxPHj3QUIADwf4HyyxDpuq8aCO6j9",
+	"TWITTER_ACCESS_TOKEN": "918717974-1f8M0y7NU72NOxPGALxbcXkWh4EQzMvGAaiD9L3d",
+	"TWITTER_TOKEN_SECRET": "XoOI6xMvXFMOcFYOPjTFKgF7w3PUwgri0MnvgxVqjbfaE",
+	"PUBNUB_PUBLISH_KEY": "pub-c-d8af7208-67d1-43c1-8e0f-6e145f170389",
+	"PUBNUB_SUBSCRIBE_KEY": "sub-c-49d28564-90d0-11e7-9abb-8648962385d0",
 	"GA_TRACKING_ID": "your-google-analytics-id-optional"
 }
