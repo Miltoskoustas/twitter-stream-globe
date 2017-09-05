@@ -347,9 +347,11 @@ a {
     position: relative;
     top: -8px;
     font-size: 12px
-    border-color : yellow
 }
 
+.tweet-item.neutral {
+    border-color: yellow
+}
 .tweet-item.negative {
     border-color: red
 }
