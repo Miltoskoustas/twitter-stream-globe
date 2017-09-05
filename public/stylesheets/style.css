@@ -300,11 +300,43 @@ a {
     font-weight: 300
 }
 
-#sentiment-value.negative {
+#sentiment-value.negative5 {
     color: #ffff00
 }
 
-#sentiment-value.positive {
+#sentiment-value.negative4 {
+    color: #ff2a00
+}
+
+#sentiment-value.negative3 {
+    color: #ff5b00
+}
+
+#sentiment-value.negative2 {
+    color: #ff9000
+}
+
+#sentiment-value.negative1 {
+    color: #ffc600
+}
+
+#sentiment-value.positive1 {
+    color: #c6ff00
+}
+
+#sentiment-value.positive2 {
+    color: #90ff00
+}
+
+#sentiment-value.positive3 {
+    color: #5bff00
+}
+
+#sentiment-value.positive4 {
+    color: #2aff00
+}
+
+#sentiment-value.positive5 {
     color: #00ff00
 }
 
