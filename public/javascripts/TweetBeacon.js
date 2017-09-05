@@ -17,34 +17,34 @@ TweetBeacon = function(tweet) {
   // Set base color depending on sentiment score
   this.color = 0xFFFF00;
 
-  if (tweet.sentiment.score < -2.5) {
+  if (tweet.sentiment.score < -1) {
     this.color = 0xFF0000;
   }
-  else if (tweet.sentiment.score > -2.5 & tweet.sentiment.score < -2){
+  else if (tweet.sentiment.score > -1 & tweet.sentiment.score < -0.8){
     this.color = 0xFF2A00;
   }
-  else if (tweet.sentiment.score > -2 & tweet.sentiment.score < -1.5){
+  else if (tweet.sentiment.score > -0.8 & tweet.sentiment.score < -0.6){
     this.color = 0xFF5B00;
   }
-  else if (tweet.sentiment.score > -1.5 & tweet.sentiment.score < -1){
+  else if (tweet.sentiment.score > -10.6 & tweet.sentiment.score < -0.4){
     this.color = 0xFF9000;
   }
-  else if (tweet.sentiment.score > -1 & tweet.sentiment.score < -0.5){
+  else if (tweet.sentiment.score > -0.4 & tweet.sentiment.score < -0.2){
     this.color = 0xFFC600;
   }
-  else if (tweet.sentiment.score > 0.5 & tweet.sentiment.score < 1){
+  else if (tweet.sentiment.score > 0.2 & tweet.sentiment.score < 0.4){
     this.color = 0xC6FF00;
   }
-  else if (tweet.sentiment.score > 1 & tweet.sentiment.score < 1.5){
+  else if (tweet.sentiment.score > 0.4 & tweet.sentiment.score < 0.6){
     this.color = 0x90FF00;
   }
-  else if (tweet.sentiment.score > 1.5 & tweet.sentiment.score < 2){
+  else if (tweet.sentiment.score > 0.6 & tweet.sentiment.score < 0.8){
     this.color = 0x5BFF00;
   }
-  else if (tweet.sentiment.score > 2 & tweet.sentiment.score < 2.5){
+  else if (tweet.sentiment.score > 0.8 & tweet.sentiment.score < 1){
     this.color = 0x2AFF00;
   }
-  else if (tweet.sentiment.score > 2.5) {
+  else if (tweet.sentiment.score > 1) {
     this.color = 0x00FF00;
   }
 
