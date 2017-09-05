@@ -347,6 +347,7 @@ a {
     position: relative;
     top: -8px;
     font-size: 12px
+    border-color : yellow
 }
 
 .tweet-item.negative {
@@ -354,7 +355,7 @@ a {
 }
 
 .tweet-item.positive {
-    border-color: #dd0
+    border-color: green
 }
 
 #github {
