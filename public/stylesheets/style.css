@@ -384,12 +384,44 @@ a {
 .tweet-item.neutral {
     border-color: yellow
 }
-.tweet-item.negative {
-    border-color: red
+.tweet-item.negative5 {
+    border-color: #ff0000
 }
 
-.tweet-item.positive {
-    border-color: green
+.tweet-item.negative4 {
+    border-color: #ff2a00
+}
+
+.tweet-item.negative3 {
+    border-color: #ff5b00
+}
+
+.tweet-item.negative2 {
+    border-color: #ff9000
+}
+
+.tweet-item.negative1 {
+    border-color: #ffc600
+}
+
+.tweet-item.positive1 {
+    border-color: #c6ff00
+}
+
+.tweet-item.positive2 {
+    border-color: #90ff00
+}
+
+.tweet-item.positive3 {
+    border-color: #5bff00
+}
+
+.tweet-item.positive4 {
+    border-color: #2aff00
+}
+
+.tweet-item.positive5 {
+    border-color: #00ff00
 }
 
 #github {
