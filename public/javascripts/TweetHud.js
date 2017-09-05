@@ -3,7 +3,7 @@ var app = angular.module('TweetGlobe', ['ngResource', 'pubnub.angular.service'])
 app.controller('TweetHud', function($scope, $resource, $timeout, $rootScope, $timeout, PubNub) {
 
 	var TWEET_SAMPLE_SIZE = 50, // The nubmer of Tweet to display in the left-hand column
-      TREND_POLL_INTERVAL = 120000; // Trend update time interval
+      TREND_POLL_INTERVAL = 100000; // Trend update time interval
 
   /**
    *  Initializes PubNub websocket connection
