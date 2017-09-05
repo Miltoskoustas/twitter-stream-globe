@@ -5,7 +5,7 @@
 $twitter-color: #55ACEE;
 $panel-color: #222;
 $color-negative: #ff0000;
-$color-positive: #00ff00 !important;
+$color-positive: #00ff00 !;
 $color-neutral: #ffff00;
 $color-text: #fff;
 $panel-border: 5px solid #333;
@@ -174,7 +174,7 @@ a {
 }
 
 #sentiment-value.positive {
-	color: #00ff00;
+	color: $color-positive;
 }
 
 #line-chart-panel {
